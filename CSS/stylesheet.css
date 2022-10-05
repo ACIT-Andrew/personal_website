@@ -5,3 +5,10 @@ h1{
     color:#cf22cf;
     font-family: 'Gill Sans', sans-serif;
 }
+.lab2{
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar{
+    background-color: lightblue;
+    text-align: center;
+}
