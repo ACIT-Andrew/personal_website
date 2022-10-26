@@ -1,14 +1,20 @@
 body{
-    background-color:#99f9a9;
+    background-color: #edddd0;
 }
 h1{
-    color:#cf22cf;
+    color:#334259;
     font-family: 'Gill Sans', sans-serif;
 }
 .lab2{
     font-family: 'Montserrat', sans-serif;
 }
 #navbar{
-    background-color: lightblue;
-    text-align: center;
+    background-color: #a6cad4;
+    text-align: center;    
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
 }
