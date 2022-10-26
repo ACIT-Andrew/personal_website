@@ -3,6 +3,9 @@ body{
     color:#334259;
 
 }
+p{
+    /* padding: 10px; */
+}
 
  /* HEADER */
 .header-flex{
@@ -12,7 +15,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-h1{/*******  welcome*/
+/*******  welcome*/
+h1{
     color:#334259;
     font-family: 'Gill Sans', sans-serif;
 }
@@ -38,6 +42,7 @@ li{
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    /* height: ; */
 }
 .dog{
     /* flex: 1 1 30%; */
@@ -51,10 +56,10 @@ li{
 h2{
     grid-row: 1/2;
 }
-.main1{
+.text1{
     grid-row: 2/3;
 }
-.main2{
+.text2{
     grid-row: 3/4;
 }
 /* ********* */
@@ -66,9 +71,9 @@ h2{
     justify-content: center;
     align-items: center;
     background-color: #a6cad4;
-    bottom: 0px;
+    /* bottom: 0px; */
 }
 .copyright{
-    align-items: ;
+    /* align-items: ; */
 }
 /* ****** */
