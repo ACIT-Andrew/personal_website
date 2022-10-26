@@ -1,20 +1,74 @@
 body{
     background-color: #edddd0;
+    color:#334259;
+
 }
-h1{
+
+ /* HEADER */
+.header-flex{
+    background-color: #a6cad4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{/*******  welcome*/
     color:#334259;
     font-family: 'Gill Sans', sans-serif;
 }
-.lab2{
+/* .lab2{
     font-family: 'Montserrat', sans-serif;
-}
-#navbar{
+} */
+
+/* #navbar{
     background-color: #a6cad4;
     text-align: center;    
-}
+} */
 ul{
     list-style-type: none;
 }
 li{
     display: inline;
 }
+/* ******** */
+
+/* Main Content Area */
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.dog{
+    /* flex: 1 1 30%; */
+}
+.text-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr 100px;
+    height: 500px;
+}
+h2{
+    grid-row: 1/2;
+}
+.main1{
+    grid-row: 2/3;
+}
+.main2{
+    grid-row: 3/4;
+}
+/* ********* */
+
+/* FOOTER AREA */
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6cad4;
+    bottom: 0px;
+}
+.copyright{
+    align-items: ;
+}
+/* ****** */
