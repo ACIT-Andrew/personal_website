@@ -1,10 +1,9 @@
 body{
     background-color: #edddd0;
     color:#334259;
-
 }
 p{
-    /* padding: 10px; */
+    
 }
 
  /* HEADER */
@@ -28,10 +27,10 @@ h1{
     background-color: #a6cad4;
     text-align: center;    
 } */
-ul{
+header ul{
     list-style-type: none;
 }
-li{
+header li{
     display: inline;
 }
 /* ******** */
@@ -45,13 +44,15 @@ li{
     /* height: ; */
 }
 .dog{
-    /* flex: 1 1 30%; */
+    display: flex;
+    align-items: center;
 }
 .text-grid{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 1fr 100px;
     height: 500px;
+    /* width: 70%; */
 }
 h2{
     grid-row: 1/2;
@@ -71,9 +72,7 @@ h2{
     justify-content: center;
     align-items: center;
     background-color: #a6cad4;
-    /* bottom: 0px; */
 }
-.copyright{
-    /* align-items: ; */
-}
+/* .copyright{
+} */
 /* ****** */
