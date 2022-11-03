@@ -1,0 +1,38 @@
+/* MOBILE FIRST */
+body{
+    background-color: #edddd0;
+    color:#334259;
+}
+
+ /* HEADER */
+ .header-flex{
+    background-color: #a6cad4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*******  welcome*/
+h1{
+    color:#334259;
+    font-family: 'Gill Sans', sans-serif;
+}
+header ul{
+    padding: 0;
+    text-align: center;
+}
+header li{
+    display: block;
+}
+
+/* MAIN AREA */
+
+
+/* FOOTER AREA */
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6cad4;
+}

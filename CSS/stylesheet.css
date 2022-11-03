@@ -28,7 +28,7 @@ h1{
     text-align: center;    
 } */
 header ul{
-    list-style-type: none;
+    padding: 0;
 }
 header li{
     display: inline;
