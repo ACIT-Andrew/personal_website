@@ -12,22 +12,28 @@ do{
 ask = prompt('enter');
 }while(ask.length != 4 || isNaN(ask));
 
+exist = 0;
 for (let course in courseList){
   c = courseList[course]["code"];
   d = courseList[course]["name"];
   if(c.includes(ask)){
     console.log(`Yes I am taking the course ${c} - ${d}`);
+    exist++;
     break;
   }
   // else if(!(c.includes(ask))){
   //   continue;
   // }
-  else{
-    courseList.push({code: ask, name: null});
-    console.log("New course number added.");
-    continue;
-  }
+  // else{
+  //   courseList.push({code: ask, name: null});
+  //   console.log("New course number added.");
+  // }
 };
+
+if(counter === 0){
+  courseList.push({code: ask, name: null});
+  console.log("New course number added.");
+}
 console.log(courseList)
 
 
