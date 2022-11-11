@@ -13,14 +13,23 @@ ask = prompt('enter');
 }while(ask.length != 4 || isNaN(ask));
 
 for (let course in courseList){
-  c = courseList[course]["code"]
+  c = courseList[course]["code"];
+  d = courseList[course]["name"];
   if(c.includes(ask)){
-    console.log(`Yes I am taking the course ${courseList[course]["code"]} - ${courseList[course]["name"]}`);
-  }else{
+    console.log(`Yes I am taking the course ${c} - ${d}`);
+    break;
+  }
+  // else if(!(c.includes(ask))){
+  //   continue;
+  // }
+  else{
     courseList.push({code: ask, name: null});
     console.log("New course number added.");
+    continue;
   }
 };
+console.log(courseList)
+
 
 // for(let crs in courseList){
 //   let d = courseList[crs]["code"];
@@ -31,14 +40,3 @@ for (let course in courseList){
 //     let ask = prompt();
 // }
 // }
-
-// do{
-//   ask = prompt();
-// }while(ask.length !== 4 || isNaN(ask));
-
-// for (let course in courseList){
-//   code = courseList[course]["code"]
-//   if(code.includes(ask)){
-//     console.log(`Yes I am taking the course ${courseList[course]["code"]} - ${courseList[course]["name"]}`)
-//   }
-// };
